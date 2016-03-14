@@ -1,0 +1,7 @@
+{
+  "error": {
+    "text": "Yelp introduced a new error type",
+    "id": "THIS_ERROR_TYPE_IS_UNKNOWN",
+    "field": "new field"
+  }
+}

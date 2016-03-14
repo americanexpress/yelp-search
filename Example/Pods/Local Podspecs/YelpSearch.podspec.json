@@ -1,0 +1,36 @@
+{
+  "name": "YelpSearch",
+  "version": "0.1.0",
+  "summary": "Search for businesses on Yelp",
+  "description": "A utility to search for businesses using the Yelp Search API",
+  "homepage": "https://github.com/americanexpress/yelpsearch",
+  "license": "Apache License, Version 2.0",
+  "authors": {
+    "Ace Ellett": "Ace.Ellett@aexp.com"
+  },
+  "source": {
+    "git": "https://github.com/americanexpress/yelpsearch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "YelpSearch": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "OAuthSwift": [
+      "~> 0.5.0"
+    ],
+    "SwiftyJSON": [
+      "~> 2.3.1"
+    ],
+    "Alamofire": [
+      "~> 3.0"
+    ]
+  }
+}

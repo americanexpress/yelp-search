@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YelpSearch_Example', :exclusive => true do
+  pod 'YelpSearch', :path => '../'
+end
+
+target 'YelpSearch_Tests', :exclusive => true do
+  pod 'YelpSearch', :path => '../'
+
+  pod 'Quick', '~> 0.8.0'
+  pod 'Nimble', '3.0.0'
+  pod 'OAuthSwift', '~> 0.5.0'
+  pod 'SwiftyJSON'
+  pod 'Alamofire', '~> 3.0'
+end

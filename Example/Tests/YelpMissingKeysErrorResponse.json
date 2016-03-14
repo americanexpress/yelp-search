@@ -1,0 +1,6 @@
+{
+  "error": {
+    "unrecognized_key": "this is a new key that we do not know about"
+    "other_keys": "the usual keys are missing"
+  }
+}

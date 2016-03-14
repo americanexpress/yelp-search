@@ -1,0 +1,6 @@
+framework module YelpSearch {
+  umbrella header "YelpSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}
